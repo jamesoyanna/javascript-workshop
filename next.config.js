@@ -14,7 +14,7 @@ module.exports = withNextra({
     return [
       {
         source: '/',
-        destination: '/patterns',
+        destination: '/workshop',
         permanent: true,
       },
     ]

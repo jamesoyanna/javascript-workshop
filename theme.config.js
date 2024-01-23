@@ -1,6 +1,6 @@
 const theme = {
-  titleSuffix: " | JavaScript Patterns",
-  search: true,
+  titleSuffix: " | JavaScript Workshop",
+  search: false,
   unstable_flexsearch: true,
   unstable_staticImage: true,
   floatTOC: true,
@@ -16,7 +16,7 @@ const theme = {
         style={{ marginRight: "1em" }}
       />
       <h1>
-        JavaScript Patterns <span style={{ opacity: 0.2 }}></span>
+        JavaScript Workshop <span style={{ opacity: 0.2 }}></span>
       </h1>
     </>
   ),
@@ -61,7 +61,7 @@ const theme = {
         <meta property="og:image:height" content="692" />
         <meta
           property="og:title"
-          content={`${props.title} | JavaScript Patterns`}
+          content={`${props.title} | JavaScript Workshop`}
         />
         <meta
           property="og:description"
@@ -72,13 +72,13 @@ const theme = {
           content="https://javascriptpatterns.vercel.app/ogimage1.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@lydiahallie" />
-        <meta name="twitter:creator" content="@lydiahallie" />
+        <meta name="twitter:site" content="@jamesoyanna" />
+        <meta name="twitter:creator" content="@jamesoyanna" />
       </>
     );
   },
   darkMode: true,
-  footerText: `${new Date().getFullYear()} © Lydia Hallie`,
+  footerText: `${new Date().getFullYear()} © James Oyanna`,
   nextThemes: {
     defaultTheme: "dark",
   },
