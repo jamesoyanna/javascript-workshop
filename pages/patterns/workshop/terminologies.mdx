@@ -1,0 +1,55 @@
+import Callout from "../../../components/Callout";
+import StackBlitz from "../../../components/StackBlitz";
+
+# Concepts & Terminologies
+
+
+## Global & Local Memory 
+The global memory is a storage space where your variables find their place.
+
+- When you declare a variable, it gets allocated in the memory of your computer, and its value is stored there.
+
+- Functions, when declared, also get their share of space in this memory stored  as function definition.
+
+## Function:
+Functions are bundle of code which are set of instructions that you name and resuse or pass around our application by. They do a specific task when you call or invoke them.
+
+## Thread of Execution: 
+The path your JavaScript code takes when it's running. The sequence of running our code line by line:
+
+- The code is executed line by line, from top to bottom.
+- Functions are also executed sequentially when called.
+![Thread of execution](/thread.gif)
+
+## Callstack:
+The callstack is a data structure that stores information about your program. It keeps track of where your program is in its execution.
+
+## Execution Context:
+Its a workspace where code is evaluated and executed. It's the environment that holds all the necessary information for a particular piece of code to run.
+When a function is called, a new execution context is created.
+![Execution Context](/execution.gif)
+
+## Callback Queue:
+The Callback Queue is a data structure in the JavaScript runtime environment that manages asynchronous callbacks.
+They handle tasks that are not part of the synchronous call stack, such as events, timers, and I/O operations.
+
+
+## Microtask Queue:
+ Is a queue that holds tasks with higher priority than regular tasks in the Callback Queue. 
+ They are often associated with promises and other asynchronous operations.
+ ![Event Loop](/microtask.gif)
+
+ ## Eventloop:
+The event loop ensures that your JavaScript code, with all its asynchronous operations, runs smoothly. 
+
+It manages the order in which tasks are executed, making sure everything happens at the right time.
+It constantly checks the Call Stack to see if it's empty. 
+
+If it's empty, it looks at the Task Queue.
+If there's something in the Task Queue, it moves it to the Call Stack for execution.
+![Event Loop](/eventloop.avif)
+
+---
+
+
+---
