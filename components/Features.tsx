@@ -34,6 +34,22 @@ const features = [
     icon: LightningBoltIcon,
   },
   {
+    name: "Higher Order Functions",
+    icon: PuzzleIcon,
+  },
+  {
+    name: "Closure",
+    icon: PuzzleIcon,
+  },
+  {
+    name: "Recursion",
+    icon: PuzzleIcon,
+  },
+  {
+    name: "Prototype Chain",
+    icon: PuzzleIcon,
+  },
+  {
     name: "Asyncronousity of Javascript - Promises",
     icon: LightningBoltIcon,
   },
