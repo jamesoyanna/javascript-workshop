@@ -20,15 +20,25 @@ The path your JavaScript code takes when it's running. The sequence of running o
 - The code is executed line by line, from top to bottom.
 - Functions are also executed sequentially when called.
 ![Thread of execution](/thread.gif)
-
-## Callstack:
-The callstack is a data structure that stores information about your program. It keeps track of where your program is in its execution.
- ![Callstack](/Callstack.gif)
  
 ## Execution Context:
 Its a workspace where code is evaluated and executed. It's the environment that holds all the necessary information for a particular piece of code to run.
 When a function is called, a new execution context is created.
+
+There are three main types of execution contexts in JavaScript:
+1. Global Execution Context:
+	- The global execution context represents the default context when the JavaScript code is executed.
+	- It includes global variables and functions that are accessible throughout the entire program.
+
+Function Execution Context:
+- When ever we invoke or call  function , a new function execution context is created.
+- It includes local variables, parameters, and the scope chain, which consists of variables from the function's own scope and any outer (enclosing) scopes.
+
 ![Execution Context](/execution.gif)
+
+## Callstack:
+The callstack is a data structure that stores information about your program. It keeps track of where your program is in its execution.
+ ![Callstack](/Callstack.gif)
 
 ## Callback Queue:
 The Callback Queue is a data structure in the JavaScript runtime environment that manages asynchronous callbacks.
@@ -51,5 +61,10 @@ If there's something in the Task Queue, it moves it to the Call Stack for execut
 
 ---
 
+#### In programming, you engage in two fundamental activities: 
 
+- Creating or generating  data and 
+
+
+- Running or performing operations or associated functionality on the data.
 ---
