@@ -14,25 +14,21 @@ The global memory is a storage space where your variables find their place.
 ## Function:
 Functions are bundle of code which are set of instructions that you name and resuse or pass around our application by. They do a specific task when you call or invoke them.
 
+#### Function have 2 phases:
+ The declaration phase  -  Function is defined and stored in the memory of our computer.
+ and the invocation phases - When you eventually call or use the function in your code.
+
+The perenthesis. () denotes that we running the function. Functions are reusable pieces of data.
+
 ## Thread of Execution: 
 The path your JavaScript code takes when it's running. The sequence of running our code line by line:
 
 - The code is executed line by line, from top to bottom.
 - Functions are also executed sequentially when called.
-![Thread of execution](/thread.gif)
  
 ## Execution Context:
 Its a workspace where code is evaluated and executed. It's the environment that holds all the necessary information for a particular piece of code to run.
 When a function is called, a new execution context is created.
-
-There are three main types of execution contexts in JavaScript:
-1. Global Execution Context:
-	- The global execution context represents the default context when the JavaScript code is executed.
-	- It includes global variables and functions that are accessible throughout the entire program.
-
-Function Execution Context:
-- When ever we invoke or call  function , a new function execution context is created.
-- It includes local variables, parameters, and the scope chain, which consists of variables from the function's own scope and any outer (enclosing) scopes.
 
 ![Execution Context](/execution.gif)
 

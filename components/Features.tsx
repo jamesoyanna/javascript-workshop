@@ -49,10 +49,6 @@ const features = [
     name: "Prototype Chain",
     icon: PuzzleIcon,
   },
-  {
-    name: "Asyncronousity of Javascript - Promises",
-    icon: LightningBoltIcon,
-  },
 ];
 
 function Features() {
