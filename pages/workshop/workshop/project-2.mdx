@@ -26,9 +26,13 @@ Then,implement the transferMoney function, ensuring validation of input fields,
 JavaScript, being a single-threaded language, faces limitations in handling concurrent tasks efficiently. 
 
 - Web pages often need to perform time-consuming operations, such as fetching data from a server, loading images, or processing user inputs.
+
+- Tasks that takes time to run in JavaScript, such as complex computations or network requests, can freeze the user interface, making the application less responsive and causing a poor user experience.
+
 - Asynchronousity enables these operations to be initiated without halting the entire execution, ensuring that other tasks can continue in the meantime.
 
-To overcome this constraint, web browsers utilize additional components, often referred to as Web Browser APIs, to perform various operations concurrently
+
+- To overcome this constraint, web browsers utilize additional components, often referred to as Web Browser APIs, to perform various operations concurrently
 
 These APIs extend the capabilities of JavaScript, enabling it to interact with different aspects of the browser environment.
 
@@ -57,8 +61,11 @@ We need some additional components:
 <StackBlitz name="js-in9tae" view="editor" />
 
 #### Tips:
-- JavaScript, being a single-threaded language, faces limitations in handling concurrent tasks efficiently. 
-To overcome this constraint, web browsers utilize additional components - Web Browser APIs, to perform various operations concurrently. 
-hese APIs extend the capabilities of JavaScript.
+- Promises, Web APIs, callback and microtask queues, and the event loop work together to achieve non-blocking applications.
 
-- Tasks that takes time to run in JavaScript, such as complex computations or network requests, can freeze the user interface, making the application less responsive and causing a poor user experience.
+- This implies that we don't have to wait in a single thread and hinder the progress of other code. 
+
+- Regardless of how long our browser's features take to complete, we can't predict it, so we let JavaScript handle it automatically. 
+
+- Asynchronous web applications serve as the foundation of the modern web, enabling the development of fast, non-blocking applications.
+
